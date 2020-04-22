@@ -1,16 +1,16 @@
-"C:\Faculdade\Embarcados\EK-TM4C1294_IAR8\Projects\Lab1_PWM\src\Lab1_PWM_main.c"
+"C:\Artur\Faculdade\Embarcados\EK-TM4C1294_IAR8\Projects\Lab1_PWM\src\Lab1_PWM_main.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-C:\Faculdade\Embarcados\EK-TM4C1294_IAR8\Projects\Lab1_PWM\Debug\Obj\Lab1_PWM_main.pbi.dep
+C:\Artur\Faculdade\Embarcados\EK-TM4C1294_IAR8\Projects\Lab1_PWM\Debug\Obj\Lab1_PWM_main.pbi.dep
 -o
 Lab1_PWM_main.pbi
 -I
-C:\Faculdade\Embarcados\EK-TM4C1294_IAR8\Projects\Lab1_PWM\src
+C:\Artur\Faculdade\Embarcados\EK-TM4C1294_IAR8\Projects\Lab1_PWM\src
 -I
-C:\Faculdade\Embarcados\EK-TM4C1294_IAR8\Projects\Lab1_PWM\..\..\TivaWare_C_Series-2.1.4.178
+C:\Artur\Faculdade\Embarcados\EK-TM4C1294_IAR8\Projects\Lab1_PWM\..\..\TivaWare_C_Series-2.1.4.178
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\CMSIS\Core\Include
 -I
@@ -20,7 +20,7 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\inc\c
 -I
-C:\Faculdade\Embarcados\EK-TM4C1294_IAR8\TivaWare_C_Series-2.1.4.178
+C:\Artur\Faculdade\Embarcados\EK-TM4C1294_IAR8\TivaWare_C_Series-2.1.4.178
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\CMSIS\Core\Include
 -I

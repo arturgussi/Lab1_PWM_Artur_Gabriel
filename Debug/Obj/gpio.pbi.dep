@@ -1,5 +1,5 @@
-Lab1_PWM_main.pbi: \
-  C:\Artur\Faculdade\Embarcados\EK-TM4C1294_IAR8\Projects\Lab1_PWM\src\Lab1_PWM_main.c \
+gpio.pbi: \
+  C:\Artur\Faculdade\Embarcados\EK-TM4C1294_IAR8\Projects\Lab1_PWM\src\gpio.c \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stdint.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\ycheck.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\yvals.h \
@@ -8,7 +8,6 @@ Lab1_PWM_main.pbi: \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Product.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stdbool.h \
   C:\Artur\Faculdade\Embarcados\EK-TM4C1294_IAR8\Projects\Lab1_PWM\..\..\TivaWare_C_Series-2.1.4.178\inc/hw_memmap.h \
-  C:\Artur\Faculdade\Embarcados\EK-TM4C1294_IAR8\Projects\Lab1_PWM\..\..\TivaWare_C_Series-2.1.4.178\driverlib/gpio.h \
   C:\Artur\Faculdade\Embarcados\EK-TM4C1294_IAR8\Projects\Lab1_PWM\..\..\TivaWare_C_Series-2.1.4.178\driverlib/sysctl.h \
-  C:\Artur\Faculdade\Embarcados\EK-TM4C1294_IAR8\Projects\Lab1_PWM\..\..\TivaWare_C_Series-2.1.4.178\driverlib/systick.h \
+  C:\Artur\Faculdade\Embarcados\EK-TM4C1294_IAR8\Projects\Lab1_PWM\..\..\TivaWare_C_Series-2.1.4.178\driverlib/gpio.h \
   C:\Artur\Faculdade\Embarcados\EK-TM4C1294_IAR8\Projects\Lab1_PWM\src/gpio.h

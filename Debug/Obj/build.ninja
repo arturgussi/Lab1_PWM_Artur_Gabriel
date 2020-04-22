@@ -1,4 +1,4 @@
-#Generating source browse information for project Lab1_PWM
+#Generating source browse information for project Lab1
 
 
 #Abbreviations
@@ -20,9 +20,10 @@ rule browsedata
 
 
 #Build steps
+build gpio.pbi : index gpio.xcl
 build Lab1_PWM_main.pbi : index Lab1_PWM_main.xcl
 build system_TM4C1294_TW.pbi : index system_TM4C1294_TW.xcl
-build Lab1_PWM.pbd : link Lab1_PWM_main.pbi system_TM4C1294_TW.pbi
-build Lab1_PWM.pbw : browsedata Lab1_PWM.pbd
+build Lab1.pbd : link gpio.pbi Lab1_PWM_main.pbi system_TM4C1294_TW.pbi
+build Lab1.pbw : browsedata Lab1.pbd
 
 

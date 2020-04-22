@@ -1,12 +1,12 @@
-"C:\Artur\Faculdade\Embarcados\EK-TM4C1294_IAR8\Projects\Lab1_PWM\src\system_TM4C1294_TW.c"
+"C:\Artur\Faculdade\Embarcados\EK-TM4C1294_IAR8\Projects\Lab1_PWM\src\gpio.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-C:\Artur\Faculdade\Embarcados\EK-TM4C1294_IAR8\Projects\Lab1_PWM\Debug\Obj\system_TM4C1294_TW.pbi.dep
+C:\Artur\Faculdade\Embarcados\EK-TM4C1294_IAR8\Projects\Lab1_PWM\Debug\Obj\gpio.pbi.dep
 -o
-system_TM4C1294_TW.pbi
+gpio.pbi
 -I
 C:\Artur\Faculdade\Embarcados\EK-TM4C1294_IAR8\Projects\Lab1_PWM\src
 -I
