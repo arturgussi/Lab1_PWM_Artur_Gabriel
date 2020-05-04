@@ -18,18 +18,34 @@ int LED_D1 = 0;
 
 int PWM = 5;
 
-int chave1 = 0;
-int chave2 = 0;
+bool isPress1 = false;  //default value for unpress buttons sw1 and sw2
+bool isPress2 = false;  //default value for unpress buttonssw1 and sw2
 
+//anti-aliasing of the buttons 
 int apertado() {
-  int valor = PortJ_Input();
+//first changes variable isPressX on press down button
+//then verificate when the button go up to account a validate pressing
+  
+  int buttonValue = PortJ_Input();
 
-  if (valor == 2 || valor == 1 ) {
-    for ( int i = 0; i < FREQ_MAX; i++ ) {}
+// cheks if the button was pressed down
+  if (buttonValue == 2){  // sw1 pressed
+    isPress1 = true;
+  } else if (buttonValue == 1 ) {  // sw2 pressed
+    isPress2 = true;
   }
-  
-  return valor;
-  
+ 
+//check when the button returns up
+  if (isPress1 == true && buttonValue == 3) {
+    isPress1 = false;
+    return 2;  // sw1 validated
+  }
+  else if (isPress2 == true && buttonValue == 3) {
+    isPress2 = false;
+    return 1;  // sw2 validated
+  } else {
+    return 3;  // any button pressed
+  }
 }
 
 void muda_PWM(uint8_t botao) {
